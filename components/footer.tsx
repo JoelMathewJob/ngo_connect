@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <Link href="/" className="flex items-center space-x-2">
               <Icons.logo className="h-6 w-6" />
-              <span className="font-bold">VolunteerConnect</span>
+              <span className="font-bold">Seva Sangam</span>
             </Link>
             <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
               Connecting passionate volunteers with impactful NGOs
@@ -53,7 +53,7 @@ export function Footer() {
         </div>
         <div className="mt-8 border-t border-gray-200 dark:border-gray-700 pt-8 text-center">
           <p className="text-sm text-gray-600 dark:text-gray-400">
-            © 2024 VolunteerConnect. All rights reserved.
+            © 2024 Seva Sangam. All rights reserved.
           </p>
         </div>
       </div>
