@@ -7,6 +7,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Calendar, PlusCircle, Users, BarChart } from "lucide-react"
 import { generateText } from "ai"
 import { openai } from "@ai-sdk/openai"
+import Events from "@/components/event-sec"
 
 // Mock data
 const mockData = {
@@ -58,7 +59,7 @@ export default function NGODashboard() {
         </TabsList>
         
         <TabsContent value="events">
-          <Card>
+          {/* <Card>
             <CardHeader>
               <CardTitle className="flex justify-between items-center">
                 Upcoming Events
@@ -82,7 +83,8 @@ export default function NGODashboard() {
                 </div>
               ))}
             </CardContent>
-          </Card>
+          </Card> */}
+          <Events/>
         </TabsContent>
         
         <TabsContent value="volunteers">
